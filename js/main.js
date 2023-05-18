@@ -12,7 +12,7 @@ function displayShoes(array) {
                 <h3 class="item-price">${item.price.toLocaleString()} руб.</h3>
             </div>
             </div>
-            <button alt="" class="add-to-cart__btn"> <img src="/images/add-to-cart-btn.png" alt="add-to-cart__img">Купить</button>
+            <button alt="" class="add-to-cart__btn"> <img src="./images/add-to-cart-btn.png" alt="add-to-cart__img">Купить</button>
         </div>
         `;
   });
