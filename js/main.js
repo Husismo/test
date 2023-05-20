@@ -188,7 +188,9 @@ document.querySelector(`.search-form`).addEventListener(`input`, showValue);
 
 let cart = [];
 let savedCart = JSON.parse(localStorage.getItem('cart'));
-cart = savedCart;
+if (savedCart != null){
+  cart = savedCart;
+}
 function addToCart() {
   let itemColor;
   for (let color of document.querySelectorAll(`.item-real-color-radio`)) {
@@ -223,9 +225,7 @@ function addToCart() {
 }
 
 function saveToLocalStorage(){
-  // преобразовываем объект в строку и сохраняем в localStorage
   localStorage.setItem('cart', JSON.stringify(cart));
-  // извлекаем данные и преобразовываем в объект
   console.log(savedCart)
 }
 
