@@ -13,105 +13,100 @@
   <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
 </head>
 <body>
-
-  <div class="up-button__wrapper">
-    <img src="./images/scroll-up-btn.png" alt="">
-  </div>
-
-  <div class="order-confirmed">
-    <div class="order-confirmed__wrapper">
-      <div class="order-confirmed-title">
-        <img src="./images/happy-emoji.png" alt=""> 
-        <h2>Заказ оформлен!</h2>
-        <p>В ближайшее время с Вами свяжется оператор!</p>
+    <div class="up-button__wrapper">
+      <img src="./images/scroll-up-btn.png" alt="">
+    </div>
+    <div class="order-confirmed">
+      <div class="order-confirmed__wrapper">
+        <div class="order-confirmed-title">
+          <img src="./images/happy-emoji.png" alt=""> 
+          <h2>Заказ оформлен!</h2>
+          <p>В ближайшее время с Вами свяжется оператор!</p>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="cart__wrapper">
-    <div class="cart">
-      <div class="empty__cart-title">
-        <img src="./images/emoji.png" alt=""> 
-        <h2>Корзина пуста :( </h2>
-        <p>Вы ничего не добавили в корзину</p>
-      </div>
-      <div class="cart__inner">
-        <div class="cart__items">
+    <div class="cart__wrapper">
+      <div class="cart">
+        <div class="empty__cart-title">
+          <img src="./images/emoji.png" alt=""> 
+          <h2>Корзина пуста :( </h2>
+          <p>Вы ничего не добавили в корзину</p>
         </div>
-        <div class="cart__order">
-          <p class="cart-order__title">
-            Оформить заказ
-          </p>
-          <form action="" class="cart-order__form">
-            <input maxlength="11" type="number" class="user-phone" placeholder="Номер телефона">
-            <input type="mail" class="user-mail" placeholder="E-mail" >
-            <input type="text" class="user-fullName" placeholder="Фамилия Имя Отчество" >
-            <p>Адрес доставки</p>
-            <input type="text" class="user-address" placeholder="Город, улица, дом, квартира" >
-            <textarea class="user-coment" placeholder="Комментарий к заказу" maxlength="2000"> </textarea>
-            <button class="setOrder__btn">оформить заказ</button>
-          </form>
-          <div class="total__inner">
-            <p class="total">Итого:</p>
-            <p class="total__price">13000P</p>
+        <div class="cart__inner">
+          <div class="cart__items">
+          </div>
+          <div class="cart__order">
+            <p class="cart-order__title">
+              Оформить заказ
+            </p>
+            <form action="" class="cart-order__form">
+              <input maxlength="11" type="number" class="user-phone" placeholder="Номер телефона">
+              <input type="mail" class="user-mail" placeholder="E-mail" >
+              <input type="text" class="user-fullName" placeholder="Фамилия Имя Отчество" >
+              <p>Адрес доставки</p>
+              <input type="text" class="user-address" placeholder="Город, улица, дом, квартира" >
+              <textarea class="user-coment" placeholder="Комментарий к заказу" maxlength="2000"></textarea>
+              <button class="setOrder__btn">оформить заказ</button>
+            </form>
+            <div class="total__inner">
+              <p class="total">Итого:</p>
+              <p class="total__price">13000P</p>
+            </div>
+          </div>
+        </div>
+        <img src="./images/cross.png" alt="" class="cart-cross__img">
+      </div>
+    </div>
+    <div class="cart-added">
+      <div class="cart-added__wrapper">
+        <div class="cart-added-title">
+          <img src="./images/happy-emoji.png" alt=""> 
+          <h2>Добавлено в корзину! </h2>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header-logo__wrapper">
+            <a href=""><img src="./images/icon.png" alt="logo-img" class="header-logo__img"></a>
+            <div class="header-title__wrapper">
+              <h1 class="header__title">BEST SNEAKERS</h1>
+              <h2 class="header__subtitle">Магазин лучших кроссовок</h2>
+            </div>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__li sneakers">Кроссовки</li>
+              <li class="header__li gumshoes">Кеды</li>
+              <li class="header__li boots">Ботинки</li>
+            </ul>
+          </nav>
+          <div class="header-buttons__wrapper">
+            <div class="header-theme__wrapper">
+              <img src="./images/weather.png" alt="cart-img" class="header-theme">
+            </div>
+            <div class="header-menu__wrapper">
+              <img src="./images/cart.png" alt="cart-img" class="header-cart">
+              <span class="header-cart__counter" ></span>
+            </div>
           </div>
         </div>
       </div>
-      <img src="./images/cross.png" alt="" class="cart-cross__img">
-    </div>
-  </div>
-
-  <div class="cart-added">
-    <div class="cart-added__wrapper">
-      <div class="cart-added-title">
-        <img src="./images/happy-emoji.png" alt=""> 
-        <h2>Добавлено в корзину! </h2>
-      </div>
-    </div>
-  </div>
-
-  <header class="header">
-    <div class="container">
-      <div class="header__wrapper">
-        <div class="header-logo__wrapper">
-          <a href=""><img src="./images/icon.png" alt="logo-img" class="header-logo__img"></a>
-          <div class="header-title__wrapper">
-            <h1 class="header__title">BEST SNEAKERS</h1>
-            <h2 class="header__subtitle">Магазин лучших кроссовок</h2>
+    </header>
+    <content class="main-content">
+      <div class="container">
+        <div class="content-wrapper">
+          <div class="content-title__wrapper">
+            <h2 class="content-title">Весь ассортимент</h2>
+              <input class="search-form" type="text" placeholder="Поиск...">
           </div>
-        </div>
-        <nav class="header__nav">
-          <ul class="header__ul">
-            <li class="header__li sneakers">Кроссовки</li>
-            <li class="header__li gumshoes">Кеды</li>
-            <li class="header__li boots">Ботинки</li>
-          </ul>
-        </nav>
-        <div class="header-buttons__wrapper">
-          <div class="header-theme__wrapper">
-            <img src="./images/weather1.png" alt="cart-img" class="header-theme">
-          </div>
-          <div class="header-menu__wrapper">
-            <img src="./images/cart.png" alt="cart-img" class="header-cart">
-            <span class="header-cart__counter" ></span>
+          <div class="content-items">
+            
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <content class="main-content">
-    <div class="container">
-      <div class="content-wrapper">
-        <div class="content-title__wrapper">
-          <h2 class="content-title">Весь ассортимент</h2>
-            <input class="search-form" type="text" placeholder="Поиск...">
-        </div>
-        <div class="content-items">
-          
-        </div>
-      </div>
-    </div>
-  </content>
+    </content>
   <footer class="footer">
     <div class="container">
       <div class="footer__wrapper">

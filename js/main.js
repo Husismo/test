@@ -1,4 +1,5 @@
 import { shoes } from "./shoes.js";
+
 function displayShoes(array) {
   array.map(function (item, index) {
     let display = document.querySelector(`.content-items`);
@@ -18,6 +19,7 @@ function displayShoes(array) {
   });
 }
 displayShoes(shoes);
+
 
 function displaySneakers() {
   document.querySelector(`.search-form`).hidden = `true`;
@@ -185,7 +187,8 @@ function showValue() {
 document.querySelector(`.search-form`).addEventListener(`input`, showValue);
 
 let cart = [];
-
+let savedCart = JSON.parse(localStorage.getItem('cart'));
+cart = savedCart;
 function addToCart() {
   let itemColor;
   for (let color of document.querySelectorAll(`.item-real-color-radio`)) {
@@ -216,6 +219,14 @@ function addToCart() {
   document.querySelector(`.cart-added`).style.display = `none`;
   }, 800)
   cartCounter()
+  saveToLocalStorage()
+}
+
+function saveToLocalStorage(){
+  // преобразовываем объект в строку и сохраняем в localStorage
+  localStorage.setItem('cart', JSON.stringify(cart));
+  // извлекаем данные и преобразовываем в объект
+  console.log(savedCart)
 }
 
 function showCart() {
@@ -290,6 +301,7 @@ function showCart() {
             `.total__price`
           ).innerHTML = `${totalPrice.toLocaleString()} Руб.`;
         });
+        saveToLocalStorage()
       }
     });
   }
@@ -350,6 +362,7 @@ setOrderBtn.addEventListener(`click`, function(event){
   document.querySelector(`.empty__cart-title`).style.display = `block`;
   cart.splice(0)
   cartCounter()
+  saveToLocalStorage()
   document.querySelector(`.order-confirmed`).style.display = `block`;
   setTimeout(function(){
     document.querySelector(`.order-confirmed`).style.display = `none`;
@@ -382,3 +395,4 @@ function changeTheme(){
 
 let themeBtn = document.querySelector(`.header-theme__wrapper`);
 themeBtn.addEventListener(`click`, changeTheme)
+cartCounter();
