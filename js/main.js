@@ -12,7 +12,7 @@ function displayShoes(array) {
                 <h3 class="item-price">${item.price.toLocaleString()} руб.</h3>
             </div>
             </div>
-            <button alt="" class="add-to-cart__btn"> <img src="./images/add-to-cart-btn.png" alt="add-to-cart__img">Купить</button>
+            <a alt="" class="add-to-cart__btn"> <img src="./images/add-to-cart-btn.png" alt="add-to-cart__img">Купить</a>
         </div>
         `;
   });
@@ -62,6 +62,17 @@ headerNavBtns.addEventListener(`click`, function (event) {
   }
 });
 
+let headerFooterBtns = document.querySelector(`.footer__nav`);
+headerFooterBtns.addEventListener(`click`, function (event) {
+  if (event.target.classList.contains(`gumshoes`)) {
+    displayGumshoes();
+  } else if (event.target.classList.contains(`sneakers`)) {
+    displaySneakers();
+  } else if (event.target.classList.contains(`boots`)) {
+    displayBoots();
+  }
+});
+
 let contentItem = document.querySelector(`.content-items`);
 contentItem.addEventListener(`click`, function (event) {
   if (
@@ -69,9 +80,11 @@ contentItem.addEventListener(`click`, function (event) {
     event.target.classList.contains(`add-to-cart__btn`)
   ) {
     let id = event.target.parentElement.id;
+    let bgColor;
+    themeBtn.classList.contains('theme-dark') ? bgColor = `#1f1f1f` : bgColor = `#fff`
     let show = document.createElement("div");
     show.innerHTML += `<div class="item-card" data-id="${id}">
-        <div class="item-card__wrapper">
+        <div class="item-card__wrapper" style="background-color: ${bgColor}" >
           <div class="img-card-wrapper">
             <img class="img-card" src="${shoes[id].imgUrl}" alt="">
           </div>
@@ -342,3 +355,30 @@ setOrderBtn.addEventListener(`click`, function(event){
     document.querySelector(`.order-confirmed`).style.display = `none`;
   }, 2000)
 })
+
+function changeTheme(){
+  let body = document.querySelector(`body`);
+  let header = document.querySelector(`header`)
+  let cartAdd = document.querySelector(`.cart-added__wrapper`);
+  let cart = document.querySelector(`.cart`);
+  let orderConfirm = document.querySelector(`.order-confirmed__wrapper`)
+  if (themeBtn.classList.contains('theme-dark')){
+    body.style.backgroundColor = `#fff`;
+    header.style.backgroundColor = `#fff`;
+    body.style.color = `#000`;
+    cartAdd.style.backgroundColor = `#fff`;
+    cart.style.backgroundColor = `#fff`;
+    orderConfirm.style.backgroundColor = `#fff`;
+  } else {
+    body.style.backgroundColor = `#1f1f1f`;
+    header.style.backgroundColor = `#1f1f1f`;
+    body.style.color = `#fff`;
+    cartAdd.style.backgroundColor = `#1f1f1f`;
+    cart.style.backgroundColor = `#1f1f1f`
+    orderConfirm.style.backgroundColor = `#1f1f1f`;
+  }
+  themeBtn.classList.toggle(`theme-dark`);
+}
+
+let themeBtn = document.querySelector(`.header-theme__wrapper`);
+themeBtn.addEventListener(`click`, changeTheme)

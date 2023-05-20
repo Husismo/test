@@ -46,9 +46,9 @@
             <input maxlength="11" type="number" class="user-phone" placeholder="Номер телефона">
             <input type="mail" class="user-mail" placeholder="E-mail" >
             <input type="text" class="user-fullName" placeholder="Фамилия Имя Отчество" >
-            <p>Адресс доставки</p>
+            <p>Адрес доставки</p>
             <input type="text" class="user-address" placeholder="Город, улица, дом, квартира" >
-            <input type="text" class="user-coment" placeholder="Комментарий к заказу" >
+            <textarea class="user-coment" placeholder="Комментарий к заказу" maxlength="2000"> </textarea>
             <button class="setOrder__btn">оформить заказ</button>
           </form>
           <div class="total__inner">
@@ -87,9 +87,14 @@
             <li class="header__li boots">Ботинки</li>
           </ul>
         </nav>
-        <div class="header-menu__wrapper">
-          <img src="./images/cart.png" alt="cart-img" class="header-cart">
-          <span class="header-cart__counter" ></span>
+        <div class="header-buttons__wrapper">
+          <div class="header-theme__wrapper">
+            <img src="./images/weather1.png" alt="cart-img" class="header-theme">
+          </div>
+          <div class="header-menu__wrapper">
+            <img src="./images/cart.png" alt="cart-img" class="header-cart">
+            <span class="header-cart__counter" ></span>
+          </div>
         </div>
       </div>
     </div>
@@ -107,6 +112,19 @@
       </div>
     </div>
   </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__nav">
+          <ul class="footer__ul">
+            <li class="footer__li sneakers">Кроссовки</li>
+            <li class="footer__li gumshoes">Кеды</li>
+            <li class="footer__li boots">Ботинки</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type= "module" src="js/main.js"></script>
 </body>
 </html>
