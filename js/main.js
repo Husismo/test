@@ -14,6 +14,7 @@ function displayShoes(array) {
             </div>
             </div>
             <a alt="" class="add-to-cart__btn"> <img src="./images/add-to-cart-btn.png" alt="add-to-cart__img">Купить</a>
+            <p class="item-date">${getDayInfo(`${item.addedDate}`)}</p>
         </div>
         `;
   });
@@ -92,9 +93,7 @@ contentItem.addEventListener(`click`, function (event) {
           </div>
           <div class="item-card-disc">
             <h4 class="item-card-name">${shoes[id].name}</h4>
-            <h5 class="item-card-price">${shoes[
-              id
-            ].price.toLocaleString()} руб.</h5>
+            <h5 class="item-card-price">${shoes[id].price.toLocaleString()} руб.</h5>
             <form action="" class="item-card-color__form">
               <p>Цвет:</p>
               <label>
@@ -226,7 +225,6 @@ function addToCart() {
 
 function saveToLocalStorage(){
   localStorage.setItem('cart', JSON.stringify(cart));
-  console.log(savedCart)
 }
 
 function showCart() {
@@ -281,7 +279,6 @@ function showCart() {
         if (eventElement == elem.dataset.cartid) {
           cart.splice(elem.dataset.cartid, 1);
           elem.remove();
-          console.log(cart);
           if (cart.length == 0) {
             document.querySelector(`.cart__inner`).style.display = `none`;
             document.querySelector(
@@ -396,3 +393,35 @@ function changeTheme(){
 let themeBtn = document.querySelector(`.header-theme__wrapper`);
 themeBtn.addEventListener(`click`, changeTheme)
 cartCounter();
+
+function getDayInfo(str) {
+  let aDay = str.split(`.`)[0];
+  let month = str.split(`.`)[1];
+  let year = str.split(`.`)[2];
+  let date = new Date(year, month - 1, aDay);
+  let dayWeek = [7, 1, 2, 3, 4, 5, 6][date.getDay()];
+  let nameDayWeek = [
+    'Воскресенье',
+    'Понедельник',
+    'Вторник',
+    'Среда',
+    'Четверг',
+    'Пятница',
+    'Суббота'][date.getDay()];
+  let nameOfMonth = [
+     'Января',
+     'Февраля',
+     'Марта',
+     'Апреля',
+     'Мая',
+     'Июня',
+     'Июля',
+     'Августа',
+     'Сентября',
+     'Октября',
+     'Ноября',
+     'Декабря',];
+  let weekOfMonth = Math.floor((+aDay + +dayWeek  - 1 ) / 7 + 1);
+  return `${nameDayWeek}, ${weekOfMonth} неделя ${nameOfMonth[month - 1]} ${year} года`
+}
+

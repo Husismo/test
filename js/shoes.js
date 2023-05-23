@@ -5,6 +5,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-1.png`,
         price: 12999,
+        addedDate: `01.01.2022`,
     },
     {   
         name: `Кроссовки Nike Air Max 270`,
@@ -12,6 +13,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-2.png`,
         price: 12999,
+        addedDate: `01.01.2023`,
     },
     {   
         name: `Кеды Nike Blazer Mid Suede`,
@@ -19,6 +21,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-3.png`,
         price: 8499,
+        addedDate: `20.02.2023`,
     },
     {   
         name: `Кроссовки Puma X Aka Boku Future Rider`,
@@ -26,6 +29,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-4.png`,
         price: 8999,
+        addedDate: `01.01.2022`,
     },
     {   
         name: `Кроссовки Under Armour Curry 8`,
@@ -33,6 +37,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-5.png`,
         price: 15199,
+        addedDate: `20.02.2023`,
     },
     {   
         name: `Кроссовки Nike Kyrie 7`,
@@ -40,6 +45,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-6.png`,
         price: 12299,
+        addedDate: `23.03.2023`,
     },
     {   
         name: `Кроссовки Jordan Air Jordan 11`,
@@ -47,6 +53,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-7.png`,
         price: 10799,
+        addedDate: `23.03.2023`,
     },
     {   
         name: `Кроссовки Nike LeBron XVIII`,
@@ -54,6 +61,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-8.png`,
         price: 16499,
+        addedDate: `23.03.2023`,
     },
     {   
         name: `Кроссовки Nike Lebron XVIII Low`,
@@ -61,6 +69,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-9.png`,
         price: 13999,
+        addedDate: `28.03.2023`,
     },
     {   
         name: `Кеды Nike Blazer Mid Suede`,
@@ -68,6 +77,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-10.png`,
         price: 8499,
+        addedDate: `28.03.2023`,
     },
     {   
         name: `Кроссовки Puma X Aka Boku Future Rider`,
@@ -75,6 +85,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-11.png`,
         price: 8999,
+        addedDate: `28.03.2023`,
     },
     {   
         name: `Кроссовки Nike Kyrie Flytrap IV`,
@@ -82,6 +93,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-12.png`,
         price: 11299,
+        addedDate: `28.03.2023`,
     },
     {   
         name: `Кеды Converse Chuck Taylor As Core`,
@@ -89,6 +101,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-13.png`,
         price: 10399,
+        addedDate: `08.02.2023`,
     },
     {   
         name: `Кеды Palladium Palla Ace CVS`,
@@ -96,6 +109,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-14.png`,
         price: 9699,
+        addedDate: `08.02.2023`,
     },
     {   
         name: `Кеды Converse Chuck Taylor All Star Core High Tram`,
@@ -103,6 +117,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-15.png`,
         price: 11399,
+        addedDate: `08.02.2023`,
     },
     {   
         name: `Кеды Converse Chuck Taylor All Star Seasonal`,
@@ -110,6 +125,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-16.png`,
         price: 10399,
+        addedDate: `08.02.2023`,
     },
     {   
         name: `Кеды Vans Old Skool`,
@@ -117,6 +133,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-17.png`,
         price: 8599,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Кеды Converse Chuck 70`,
@@ -124,6 +141,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-18.png`,
         price: 13499,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Кеды Vans Old Skool`,
@@ -131,6 +149,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-19.png`,
         price: 8599,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Кеды Converse Chuck Taylor All Star Core Trampki`,
@@ -138,6 +157,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-20.png`,
         price: 11399,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Мужские ботинки Salomon Reveal Chukka Climasalomon™ Waterproof`,
@@ -145,6 +165,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-21.png`,
         price: 16699,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Мужские ботинки Salomon X Ultra 4 Mid Winter ClimaSalomon Waterproof`,
@@ -152,6 +173,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-22.png`,
         price: 22799,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Ботинки Dr. Martens Vegan 101 6 Eye Boot`,
@@ -159,6 +181,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-23.png`,
         price: 23999,
+        addedDate: `27.03.2023`,
     },
     {   
         name: `Ботинки Dr. Martens 2976 Yellow Stitch Smooth Leather Chelsea Boots`,
@@ -166,6 +189,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-24.png`,
         price: 25199,
+        addedDate: `05.03.2023`,
     },
     {   
         name: `Ботинки Dr. Martens 1460 Pascal Warmwair Valor Waterproof Boots`,
@@ -173,6 +197,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-25.png`,
         price: 25199,
+        addedDate: `05.03.2023`,
     },
     {   
         name: `Ботинки Dr. Martens 1460 Mono`,
@@ -180,6 +205,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-26.png`,
         price: 25199,
+        addedDate: `05.03.2023`,
     },
     {   
         name: `Ботинки Dr. Martens 1460 Nappa`,
@@ -187,6 +213,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-27.png`,
         price: 25199,
+        addedDate: `05.03.2023`,
     },
     {   
         name: `Мужские ботинки Dr. Martens 1460 Pascal`,
@@ -194,6 +221,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-28.png`,
         price: 25199,
+        addedDate: `03.04.2023`,
     },
     {   
         name: `Мужские ботинки Dr. Martens 1460-8 Eye Boot`,
@@ -201,6 +229,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-29.png`,
         price: 28999,
+        addedDate: `03.04.2023`,
     },
     {   
         name: `Ботинки Dr. Martens 1460 Smooth`,
@@ -208,6 +237,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-30.png`,
         price: 25199,
+        addedDate: `03.04.2023`,
     },
     {   
         name: `Ботинки Dr. Martens 1460 Smooth Leather`,
@@ -215,6 +245,7 @@ export let shoes = [
         gender: `unisex`,
         imgUrl: `./images/item-31.png`,
         price: 25199,
+        addedDate: `03.04.2023`,
     },
     {   
         name: `Мужские полусапоги Street Beat Valenkee`,
@@ -222,6 +253,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-32.png`,
         price: 8399,
+        addedDate: `03.04.2023`,
     },
     {   
         name: `Мужские ботинки Street Beat Habit Boots`,
@@ -229,6 +261,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-33.png`,
         price: 9999,
+        addedDate: `06.01.2023`,
     },
     {   
         name: `Мужские ботинки Street Beat Habit Boots`,
@@ -236,6 +269,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-34.png`,
         price: 11999,
+        addedDate: `06.01.2023`,
     },
     {   
         name: `Мужские ботинки Street Beat Wale Boots`,
@@ -243,6 +277,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-35.png`,
         price: 10999,
+        addedDate: `06.01.2023`,
     },
     {   
         name: `Мужские ботинки Street Beat Wale Boots`,
@@ -250,6 +285,7 @@ export let shoes = [
         gender: `male`,
         imgUrl: `./images/item-36.png`,
         price: 10999,
+        addedDate: `06.01.2023`,
     },
     {   
         name: `Женские кроссовки Street Beat Rash`,
@@ -257,6 +293,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-37.png`,
         price: 8499,
+        addedDate: `06.01.2023`,
     },
     {   
         name: `Кроссовки Nike Dunk High Lakers`,
@@ -264,6 +301,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-38.png`,
         price: 22999,
+        addedDate: `22.04.2023`,
     },
     {   
         name: `Женские кроссовки Street Beat Wave`,
@@ -271,6 +309,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-39.png`,
         price: 6999,
+        addedDate: `22.04.2023`,
     },
     {   
         name: `Женские кроссовки Street Beat Wave`,
@@ -278,6 +317,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-40.png`,
         price: 6999,
+        addedDate: `22.04.2023`,
     },
     {   
         name: `Кроссовки PUMA RS-Connect Mono`,
@@ -285,6 +325,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-42.png`,
         price: 12999,
+        addedDate: `22.04.2023`,
     },
     {   
         name: `Кроссовки PUMA Prevail`,
@@ -292,6 +333,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-43.png`,
         price: 17999,
+        addedDate: `22.04.2023`,
     },
     {   
         name: `Кеды Converse Chuck Taylor As Core`,
@@ -299,6 +341,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-44.png`,
         price: 10399,
+        addedDate: `22.04.2023`,
     },
     {   
         name: `Кеды Vans Old Skool`,
@@ -306,6 +349,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-45.png`,
         price: 9199,
+        addedDate: `05.04.2023`,
     },
     {   
         name: `Кеды Vans Old Skool`,
@@ -313,6 +357,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-46.png`,
         price: 9199,
+        addedDate: `05.04.2023`,
     },
     {   
         name: `Женские кеды Palladium Palla Ace CVS`,
@@ -320,6 +365,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-47.png`,
         price: 9699,
+        addedDate: `05.04.2023`,
     },
     {   
         name: `Женские кеды Converse Chuck Taylor All Star Lift Platform Crafted Florals`,
@@ -327,6 +373,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-48.png`,
         price: 9699,
+        addedDate: `05.04.2023`,
     },
     {   
         name: `Женские кроссовки Street Beat Wave`,
@@ -334,6 +381,7 @@ export let shoes = [
         gender: `female`,
         imgUrl: `./images/item-41.png`,
         price: 6999,
+        addedDate: `05.04.2023`,
     },
 ];
 
