@@ -160,7 +160,7 @@ export let shoes = [
         addedDate: `27.03.2023`,
     },
     {   
-        name: `Мужские ботинки Salomon Reveal Chukka Climasalomon™ Waterproof`,
+        name: `Ботинки Salomon Reveal Chukka Climasalomon™ Waterproof`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-21.png`,
@@ -168,7 +168,7 @@ export let shoes = [
         addedDate: `27.03.2023`,
     },
     {   
-        name: `Мужские ботинки Salomon X Ultra 4 Mid Winter ClimaSalomon Waterproof`,
+        name: `Ботинки Salomon X Ultra 4 Mid Winter ClimaSalomon Waterproof`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-22.png`,
@@ -216,7 +216,7 @@ export let shoes = [
         addedDate: `05.03.2023`,
     },
     {   
-        name: `Мужские ботинки Dr. Martens 1460 Pascal`,
+        name: `Ботинки Dr. Martens 1460 Pascal`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-28.png`,
@@ -224,7 +224,7 @@ export let shoes = [
         addedDate: `03.04.2023`,
     },
     {   
-        name: `Мужские ботинки Dr. Martens 1460-8 Eye Boot`,
+        name: `Ботинки Dr. Martens 1460-8 Eye Boot`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-29.png`,
@@ -248,7 +248,7 @@ export let shoes = [
         addedDate: `03.04.2023`,
     },
     {   
-        name: `Мужские полусапоги Street Beat Valenkee`,
+        name: `Полусапоги Street Beat Valenkee`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-32.png`,
@@ -256,7 +256,7 @@ export let shoes = [
         addedDate: `03.04.2023`,
     },
     {   
-        name: `Мужские ботинки Street Beat Habit Boots`,
+        name: `Ботинки Street Beat Habit Boots`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-33.png`,
@@ -264,7 +264,7 @@ export let shoes = [
         addedDate: `06.01.2023`,
     },
     {   
-        name: `Мужские ботинки Street Beat Habit Boots`,
+        name: `Ботинки Street Beat Habit Boots`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-34.png`,
@@ -272,7 +272,7 @@ export let shoes = [
         addedDate: `06.01.2023`,
     },
     {   
-        name: `Мужские ботинки Street Beat Wale Boots`,
+        name: `Ботинки Street Beat Wale Boots`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-35.png`,
@@ -280,7 +280,7 @@ export let shoes = [
         addedDate: `06.01.2023`,
     },
     {   
-        name: `Мужские ботинки Street Beat Wale Boots`,
+        name: `Ботинки Street Beat Wale Boots`,
         type: `boots`,
         gender: `male`,
         imgUrl: `./images/item-36.png`,
@@ -288,7 +288,7 @@ export let shoes = [
         addedDate: `06.01.2023`,
     },
     {   
-        name: `Женские кроссовки Street Beat Rash`,
+        name: `Кроссовки Street Beat Rash`,
         type: `sneakers`,
         gender: `female`,
         imgUrl: `./images/item-37.png`,
@@ -304,7 +304,7 @@ export let shoes = [
         addedDate: `22.04.2023`,
     },
     {   
-        name: `Женские кроссовки Street Beat Wave`,
+        name: `Кроссовки Street Beat Wave`,
         type: `sneakers`,
         gender: `female`,
         imgUrl: `./images/item-39.png`,
@@ -312,7 +312,7 @@ export let shoes = [
         addedDate: `22.04.2023`,
     },
     {   
-        name: `Женские кроссовки Street Beat Wave`,
+        name: `Кроссовки Street Beat Wave`,
         type: `sneakers`,
         gender: `female`,
         imgUrl: `./images/item-40.png`,
@@ -360,7 +360,7 @@ export let shoes = [
         addedDate: `05.04.2023`,
     },
     {   
-        name: `Женские кеды Palladium Palla Ace CVS`,
+        name: `Кеды Palladium Palla Ace CVS`,
         type: `gumshoes`,
         gender: `female`,
         imgUrl: `./images/item-47.png`,
@@ -368,7 +368,7 @@ export let shoes = [
         addedDate: `05.04.2023`,
     },
     {   
-        name: `Женские кеды Converse Chuck Taylor All Star Lift Platform Crafted Florals`,
+        name: `Кеды Converse Chuck Taylor All Star Lift Platform Crafted Florals`,
         type: `gumshoes`,
         gender: `female`,
         imgUrl: `./images/item-48.png`,
@@ -376,12 +376,36 @@ export let shoes = [
         addedDate: `05.04.2023`,
     },
     {   
-        name: `Женские кроссовки Street Beat Wave`,
+        name: `Кроссовки Street Beat Wave`,
         type: `sneakers`,
         gender: `female`,
         imgUrl: `./images/item-41.png`,
         price: 6999,
         addedDate: `05.04.2023`,
+    },
+    {   
+        name: `Кеды Vans Old Skool Checkerboard`,
+        type: `gumshoes`,
+        gender: `female`,
+        imgUrl: `./images/item-49.png`,
+        price: 9699,
+        addedDate: `28.01.2023`,
+    },
+    {   
+        name: `Кеды Vans Sk8-Hi Reissue`,
+        type: `gumshoes`,
+        gender: `female`,
+        imgUrl: `./images/item-50.png`,
+        price: 10199,
+        addedDate: `15.04.2023`,
+    },
+    {   
+        name: `Ботинки The North Face Thermoball Traction Bootie`,
+        type: `boots`,
+        gender: `male`,
+        imgUrl: `./images/item-51.png`,
+        price: 7199,
+        addedDate: `15.04.2023`,
     },
 ];
 
